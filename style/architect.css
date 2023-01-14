@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans'
+}
+header{
+    background-color:rgba(255, 144, 14, 0.1); 
+    height: 82.625rem ;
+    margin-bottom:5.313rem;
+}
+/* header section css */
+li{
+    list-style: none;
+    font-size: 18px;
+    font-weight:500
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+header h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  3.00rem 12rem 0rem 10rem;
+    margin-bottom: 5rem ;
+}
+.section-a-of-header{
+position: relative;
+left: 33rem;
+width: 53.75rem;
+}
+.section-a-of-header h1{
+    text-align: center;
+    font-size: 64px
+}
+.section-a-of-header p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+.section-a-of-header input[type=button]{
+    background-color: #FF900E;
+    color:#FFFFFF ;
+    text-align: center;
+    height: 64px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 10px;
+    position: relative;
+    left: 21.5rem;
+    top: 3rem;
+}
+.section-img-of-header{
+    position: relative;
+    left: 15rem;
+    top: 7rem;
+}
+/* header css ends */
+
+/* main part starts */
+/* section-c-css-starts */
+.a-sec-img-of-c{
+    width: 33.564rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.b-sec-paragraph-of-c input[type=button]{
+        background-color: #FF900E;
+        color:#FFFFFF ;
+        text-align: center;
+        height: 64px;
+        width: 180px;
+        font-size: 20px;
+        font-weight: 600;
+        border: 0px;
+        border-radius: 10px;
+}
+.flex-of-sec-c{
+    width: 33.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 18rem;
+}
+.section-c{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7rem;
+}
+#orange-text{
+    
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+#grey-text{
+    padding-right: 15px;
+    color: #727272;
+    font-weight: 700;
+    font-size: 45px;
+}
+#black-text{
+    font-weight: 700;
+    font-size: 45px;
+}
+.flex-of-sec-c p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* section-d-css-starts */
+.left-side-of-sec-d{
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 30px;
+}
+.section-d{
+    height: 51rem;
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 6.875rem 7.5rem  ;
+}
+.first-paragraph{
+    width: 36.625rem;
+    
+}
+.first-paragraph-header{
+    padding-bottom:20px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.second-paragraph{
+    height: 6.25rem;
+    width: 31.125rem;
+    overflow: hidden;
+    border: 0px;
+    box-shadow: 1px 0px 20px 0px #e3e3e3;
+    padding: 40px 26px 4px 32px;
+    border-radius: 10px;
+    
+}
+.second-paragrap-discription{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.second-paragraph-header{
+    padding-bottom: 20px;
+}
+.right-side-of-sec-d-img img{
+    height: 55rem;
+}
+.experience-btn{
+    background-color: #FF900E;
+    width: 20.325rem;
+    padding: 20px 0px 20px 0px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 80px;
+    right: 110px;
+}
+.experience-btn h1{
+    font-weight: 700;
+    font-size: 62px;
+    color: #FFFFFF;
+    text-align: center
+}
+.experience-btn p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center
+}
