@@ -4,7 +4,8 @@
 }
 
 body{
-    font-family: 'Work Sans'
+    font-family: 'Work Sans';
+    
 }
 header{
     background-color:rgba(255, 144, 14, 0.1); 
@@ -62,9 +63,9 @@ width: 53.75rem;
     top: 3rem;
 }
 .section-img-of-header{
-    position: relative;
-    left: 15rem;
-    top: 7rem;
+    display: flex;
+    justify-content: center;
+    padding: 7.5rem 0rem 10rem 0rem;
 }
 /* header css ends */
 
@@ -97,7 +98,7 @@ width: 53.75rem;
 .section-c{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
 }
 #orange-text{
     
@@ -136,12 +137,16 @@ width: 53.75rem;
 }
 .first-paragraph{
     width: 36.625rem;
+    padding-left: 10px;
     
 }
 .first-paragraph-header{
-    padding-bottom:20px;
     font-size: 45px;
     font-weight: 700;
+    border: 0px;
+    border-left: 10px solid sandybrown;
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
 .second-paragraph{
     height: 6.25rem;
